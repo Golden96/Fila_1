@@ -25,7 +25,7 @@ public class zombie : MonoBehaviour {
 		gira_si_veo_muro();
 		gira_si_no_hay_suelo();
 		
-		//busca_player();
+		busca_player();
 		
 		rigidbody2D.velocity = new Vector2(this.transform.localScale.x * speed, rigidbody2D.velocity.y);
 		
